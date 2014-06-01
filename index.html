@@ -1,79 +1,362 @@
 <!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Tao.ph : Tao Philippines" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Tao.ph</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/nomli/tao.ph">View on GitHub</a>
-
-          <h1 id="project_title">Tao.ph</h1>
-          <h2 id="project_tagline">Tao Philippines</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/nomli/tao.ph/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/nomli/tao.ph/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TAO PHILIPPINES</title>
+<link rel="icon" href="img/favicon.ico" type="image/ico"/> 
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=255036601341448&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="wrap">
+	<div class="nav-wrap">
+		<div class="sub-wrap">
+                <nav class="navbar navbar-default col-md-4" role="navigation">
+                    <div class="navbar-header">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                          <a class="navbar-brand" href="#"><img src="img/tao.png" class="img-responsive"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="nav-collapse">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#slider">discover tao</a></li>
+                        <li><a href="#trip">tao trips</a></li>
+                        <li><a href="#about">about us</a></li>
+                        <li><a href="#map">map</a></li>
+                        <li class="visible-xs"><a href="#contact">apply now</a></li>
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                </nav>  
+				<div class="nav-col col-md-3 visible-lg visible-md">
+					<p>TAO Travel Guide</p>
+					<p>Important travel tips and information for all tao travellers</p>
+					<a href="#" class="btn btn-primary">view magazine</a>
+				</div>
+				<div class="nav-col col-md-3 visible-lg visible-md">
+					<p>Tao Philippines on Facebook</p>
+					<div class="soc_fb">
+						<img src="img/taofb.jpg" class="pull-left">
+						<div class="pull-left">
+							<p>Tao Philippine Expidtion</p>
+							<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="nav-col col-md-2 visible-lg visible-md">
+					<a href="#contact" class="btn btn-apply">apply now</a>
+				</div>
+		</div>
+        <span class="navToggle">MENU</span>
+	</div>
+	<div class="block home" id="slider">
+        <div id="top-slider" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+			<li data-target="#top-slider" data-slide-to="0" class="active"></li>
+			<li data-target="#top-slider" data-slide-to="1"></li>
+			<li data-target="#top-slider" data-slide-to="2"></li>
+			<li data-target="#top-slider" data-slide-to="3"></li>
+			<li data-target="#top-slider" data-slide-to="4"></li>
+			<li data-target="#top-slider" data-slide-to="5"></li>
+			<li data-target="#top-slider" data-slide-to="6"></li>
+			<li data-target="#top-slider" data-slide-to="7"></li>
+			<li data-target="#top-slider" data-slide-to="8"></li>
+			<li data-target="#top-slider" data-slide-to="9"></li>
+			<li data-target="#top-slider" data-slide-to="10"></li>
+			<li data-target="#top-slider" data-slide-to="11"></li>
+			<li data-target="#top-slider" data-slide-to="12"></li>
+		  </ol>
+		  <div class="carousel-inner">
+			<div class="item active">
+			  <img src="img/slides/slide1.jpg" alt="...">
+			  <div class="carousel-caption">
+				<h1>We are Tao.</h1>
+				<p>We welcome you as our guests, take of your shoes and help yourselves in the kitchen. Come with us for a week and live our island life.</p>
+				<a href="#" class="btn btn-primary">JUMP IN</a>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="img/slides/slide2.jpg" alt="...">
+			  <div class="carousel-caption">
+				<h1>We are Tao.</h1>
+				<p>We welcome you as our guests, take of your shoes and help yourselves in the kitchen. Come with us for a week and live our island life.</p>
+				<a href="#" class="btn btn-primary">JUMP IN</a>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="img/slides/slide3.jpg" alt="...">
+			  <div class="carousel-caption">
+				<h1>We are Tao.</h1>
+				<p>We welcome you as our guests, take of your shoes and help yourselves in the kitchen. Come with us for a week and live our island life.</p>
+				<a href="#" class="btn btn-primary">JUMP IN</a>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="img/slides/slide4.jpg" alt="...">
+			  <div class="carousel-caption">
+				<h1>We are Tao.</h1>
+				<p>We welcome you as our guests, take of your shoes and help yourselves in the kitchen. Come with us for a week and live our island life.</p>
+				<a href="#" class="btn btn-primary">JUMP IN</a>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="img/slides/slide5.jpg" alt="...">
+			  <div class="carousel-caption">
+				<h1>We are Tao.</h1>
+				<p>We welcome you as our guests, take of your shoes and help yourselves in the kitchen. Come with us for a week and live our island life.</p>
+				<a href="#" class="btn btn-primary">JUMP IN</a>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="img/slides/slide6.jpg" alt="...">
+			  <div class="carousel-caption">
+				<h1>We are Tao.</h1>
+				<p>We welcome you as our guests, take of your shoes and help yourselves in the kitchen. Come with us for a week and live our island life.</p>
+				<a href="#" class="btn btn-primary">JUMP IN</a>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="img/slides/slide7.jpg" alt="...">
+			  <div class="carousel-caption">
+				<h1>We are Tao.</h1>
+				<p>We welcome you as our guests, take of your shoes and help yourselves in the kitchen. Come with us for a week and live our island life.</p>
+				<a href="#" class="btn btn-primary">JUMP IN</a>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="img/slides/slide8.jpg" alt="...">
+			  <div class="carousel-caption">
+				<h1>We are Tao.</h1>
+				<p>We welcome you as our guests, take of your shoes and help yourselves in the kitchen. Come with us for a week and live our island life.</p>
+				<a href="#" class="btn btn-primary">JUMP IN</a>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="img/slides/slide9.jpg" alt="...">
+			  <div class="carousel-caption">
+				<h1>We are Tao.</h1>
+				<p>We welcome you as our guests, take of your shoes and help yourselves in the kitchen. Come with us for a week and live our island life.</p>
+				<a href="#" class="btn btn-primary">JUMP IN</a>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="img/slides/slide10.jpg" alt="...">
+			  <div class="carousel-caption">
+				<h1>We are Tao.</h1>
+				<p>We welcome you as our guests, take of your shoes and help yourselves in the kitchen. Come with us for a week and live our island life.</p>
+				<a href="#" class="btn btn-primary">JUMP IN</a>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="img/slides/slide11.jpg" alt="...">
+			  <div class="carousel-caption">
+				<h1>We are Tao.</h1>
+				<p>We welcome you as our guests, take of your shoes and help yourselves in the kitchen. Come with us for a week and live our island life.</p>
+				<a href="#" class="btn btn-primary">JUMP IN</a>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="img/slides/slide12.jpg" alt="...">
+			  <div class="carousel-caption">
+				<h1>We are Tao.</h1>
+				<p>We welcome you as our guests, take of your shoes and help yourselves in the kitchen. Come with us for a week and live our island life.</p>
+				<a href="#" class="btn btn-primary">JUMP IN</a>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="img/slides/slide13.jpg" alt="...">
+			  <div class="carousel-caption">
+				<h1>We are Tao.</h1>
+				<p>We welcome you as our guests, take of your shoes and help yourselves in the kitchen. Come with us for a week and live our island life.</p>
+				<a href="#" class="btn btn-primary">JUMP IN</a>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</div>
+	<div class="block" id="about">
+        <h1>About</h1>
+        <div class="yt-container"><iframe src="https://www.youtube.com/embed/U6LJWqMIrAs" frameborder="0" allowfullscreen></iframe></div>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+	<div class="block" id="trip">
+        <div class="container">
+            <div class="row">
+                <h1>Tao Trips</h1>
+                <div class="col-md-4">
+                    <div class="trip-panel">
+                        <img src="img/trip1.jpg">
+                        <div class="panel-body">
+                            <p class="title">Open Group Expeditions</p>
+                            <p>Join a group of like-minded independent travellers on a journey that connects El Nido and Coron - or vice versa - through the beautiful Linapacan group</p>
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="trip-panel">
+                        <img src="img/trip2.jpg">
+                        <div class="panel-body">
+                            <p class="title">Private Expeditions</p>
+                            <p>Our Bespoke expeditions are private trips where you can get lost in the islands with your own group of friends or family on a free flowing journey of adventure.</p>
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="trip-panel">
+                        <img src="img/trip3.jpg">
+                        <div class="panel-body">
+                            <p class="title">Flying Fish Safari</p>
+                            <p>Flying Fish is our new trip launching in January 2014! Its a 1 Day island Safari via speedboat connecting Coron and El Nido. Its fast paced, its exciting... are you ready to go??</p>
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Tao.ph maintained by <a href="https://github.com/nomli">nomli</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <div class="block" id="map">
+        <div class="map-container">
+            <div class="route"><img src="img/routes.jpg"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3758838.0594351715!2d119.10122635000003!3d10.232289050000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1snorth+palawan!5e1!3m2!1sen!2sph!4v1400739064382" frameborder="0" style="border:0"></iframe>
+            <div class="overlay"></div>
+            <p class="navigate">Click here to toggle map the navigation -</p>
+        </div>
     </div>
-
-    
-
-  </body>
+	<div class="block" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="title">
+                    <h1>This trip is not for everyone.</h1>
+                    <p class="pull-right">It might be bad weather, it might be rough waves. Limited privacy. Barking Dogs, crowing roosters, mosquito bites, jellyfish stings, sunburn. But that is the nature of the Expedition, the unexpected, the unknown, stepping outside your comfort zone. 
+We love it, but we understand that this is not everyone's idea of a holiday. </p>
+                </div>
+                <div class="contact-form clearfix">
+                    <form role="form">
+                        <div class="col-md-12"><h2>Application Form</h2></div>
+                        <div class="col-md-5">
+                            <div class="clearfix">
+                                <label class="col-md-6 col-xs-6">1st Choice of Date
+                                <select class="form-control input-lg">
+                                  <option>-</option>
+                                </select>
+                                </label>
+                                <label class="col-md-6 col-xs-6">2nd Choice of Date
+                                    <select class="form-control input-lg">
+                                      <option>-</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <div class="radio-custom">
+                              <div class="col-md-12">
+                                  <label>
+                                    <input type="radio" name="status" id="open" value="open" checked>
+                                    <span><!--FOR CUSTOM CONTROLS--></span>
+                                    Open
+                                  </label>
+                                  <label>
+                                    <input type="radio" name="status" id="private" value="private">
+                                     <span><!--FOR CUSTOM CONTROLS--></span>
+                                    Private
+                                  </label>
+								  <label for="numofP"  class="numofP">
+									<div class="pull-right">
+										<select class="form-control input-lg" id="numofP">
+										  <option>1</option>
+										  <option>2</option>
+										  <option>3</option>
+										  <option>4</option>
+										  <option>5</option>
+										</select>
+									</div>
+									<p class="text-right pull-left">Booking for how many people?&nbsp;</p>
+								   </label>
+                              </div>
+                            </div>
+							<label class="col-md-12">Lead Passenger</label>
+							<div class="col-md-12 input-inline-group">
+								<input type="text" class="form-control input-lg fname" id="" placeholder="Full Name">
+								<input type="text" class="form-control input-lg age" id="" placeholder="Age">
+								<input type="text" class="form-control input-lg nat" id="" placeholder="Nat">
+								<input type="email" class="form-control input-lg email" id="" placeholder="Email Address">
+							</div>
+							<div class="col-md-12 input-inline-group">
+								<input type="text" class="form-control input-lg fname" id="" placeholder="Full Name">
+								<input type="text" class="form-control input-lg age" id="" placeholder="Age">
+								<input type="text" class="form-control input-lg nat" id="" placeholder="Nat">
+								<input type="email" class="form-control input-lg email" id="" placeholder="Email Address">
+							</div>
+							<div class="col-md-12 input-inline-group">
+								<input type="text" class="form-control input-lg fname" id="" placeholder="Full Name">
+								<input type="text" class="form-control input-lg age" id="" placeholder="Age">
+								<input type="text" class="form-control input-lg nat" id="" placeholder="Nat">
+								<input type="email" class="form-control input-lg email" id="" placeholder="Email Address">
+							</div>
+							<div class="col-md-12 input-inline-group">
+								<input type="text" class="form-control input-lg fname" id="" placeholder="Full Name">
+								<input type="text" class="form-control input-lg age" id="" placeholder="Age">
+								<input type="text" class="form-control input-lg nat" id="" placeholder="Nat">
+								<input type="email" class="form-control input-lg email" id="" placeholder="Email Address">
+							</div>
+							<div class="col-md-12 input-inline-group">
+								<input type="text" class="form-control input-lg fname" id="" placeholder="Full Name">
+								<input type="text" class="form-control input-lg age" id="" placeholder="Age">
+								<input type="text" class="form-control input-lg nat" id="" placeholder="Nat">
+								<input type="email" class="form-control input-lg email" id="" placeholder="Email Address">
+							</div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="form-group">
+                                <label>Also tell us a little bit about yourself, where you are from and where do you like to travel?
+                                    <textarea class="form-control" rows="3"></textarea>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label>What is it that especially appeals to you about the TAO expedition?
+                                    <textarea class="form-control" rows="3"></textarea>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label>Where did you hear about TAO?
+                                    <textarea class="form-control" rows="3"></textarea>
+                                </label>
+                            </div>
+                            <button class="btn btn-primary pull-right">SUBMIT APPLICATION</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p class="pull-left">COPYRIGHT 2014. ALL RIGHTS RESERVED. TAO PHILIPPINES.</p>
+            <p class="pull-right">WEB DESIGN AND DEVELOPMENT BY RMDC.</p>
+        </div>
+    </footer>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
 </html>
